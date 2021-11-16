@@ -8,6 +8,7 @@
     "moddable": "https://github.com/Moddable-OpenSource/moddable"
   },
   "scripts": {
-    "build": "esbuild src/index.ts"
+    "build": "esbuild src/main.ts --outfile=build/main.js && cp src/manifest.json build/manifest.json",
+    "deploy": "cd ./build && mcconfig -d -m -p esp32"
   }
 }
