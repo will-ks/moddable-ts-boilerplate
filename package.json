@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "esbuild": "0.13.14",
-    "moddable": "https://github.com/Moddable-OpenSource/moddable"
+    "moddable": "https://github.com/Moddable-OpenSource/moddable",
+    "prettier": "2.4.1"
   },
   "scripts": {
     "build": "esbuild src/main.ts --outfile=build/main.js && cp src/manifest.json build/manifest.json",

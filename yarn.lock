@@ -113,3 +113,8 @@ esbuild@0.13.14:
 "moddable@https://github.com/Moddable-OpenSource/moddable":
   version "0.0.0"
   resolved "https://github.com/Moddable-OpenSource/moddable#7276ac7ba2d3d5e28301faf9e0a918ee415e2c57"
+
+prettier@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
+  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
